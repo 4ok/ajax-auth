@@ -39,10 +39,7 @@ class App extends PureComponent {
 			: <Login />
 
 		return (
-			<Layout
-				userLogged={ userLogged }
-				checkingAuth={ checkingAuth }
-			>
+			<Layout>
 				{ checkingAuth
 					? <Spin className="Layout__spin" size="large" />
 					: content
