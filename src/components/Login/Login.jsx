@@ -95,7 +95,7 @@ class Login extends PureComponent {
 
 							return (
 								<FormItem key={ key } className="Login__input">
-									{getFieldDecorator(key, params)(elem)}
+									{ getFieldDecorator(key, params)(elem) }
 								</FormItem>
 							)
 						})
