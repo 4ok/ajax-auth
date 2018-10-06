@@ -11,7 +11,11 @@ module.exports = {
 		// React
 		'react/jsx-indent': [ 2, 'tab' ],
 		'react/jsx-indent-props': [ 2, 'tab' ],
-		'react/jsx-curly-spacing': [ 2, 'always' ],
+		'react/jsx-curly-spacing': [ 2, {
+			when: 'always',
+			attributes: true,
+			children: true,
+		}],
 		'react/jsx-one-expression-per-line': 0,
 
 		// Vanilla
