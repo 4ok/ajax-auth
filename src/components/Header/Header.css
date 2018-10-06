@@ -1,0 +1,24 @@
+.Header__logo {
+	line-height: initial;
+
+	display: flex;
+	float: left;
+	align-items: center;
+	justify-content: center;
+
+	width: 120px;
+	height: 31px;
+	margin: 16px 24px 16px 0;
+
+	color: #aaa;
+
+	border-radius: 10px;
+
+	background: rgba(255, 255, 255, .2);
+}
+
+.Header__menu {
+	line-height: 64px;
+
+	float: right;
+}
