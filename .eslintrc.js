@@ -14,7 +14,7 @@ module.exports = {
 		'react/jsx-curly-spacing': [ 2, 'always' ],
 		'react/jsx-one-expression-per-line': 0,
 
-		// Vanila
+		// Vanilla
 		'import/no-extraneous-dependencies': [ 2, {
 			devDependencies: [
 				'webpack/configs/**',
