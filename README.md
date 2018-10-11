@@ -17,7 +17,7 @@ https://4ok.github.io/ajax-auth/
 
 - [Registered users](https://github.com/4ok/ajax-auth/blob/master/src/mocks/users.js)
 
-### Supported browsers
+## Supported browsers
 
 \> 1%<br>
 not dead<br>
